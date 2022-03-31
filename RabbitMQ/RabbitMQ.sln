@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erth", "Erth\Erth.csproj", "{66A515E8-C38C-4154-98E3-6789B586E709}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earth", "Erth\Earth.csproj", "{66A515E8-C38C-4154-98E3-6789B586E709}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon", "Moon\Moon.csproj", "{5146444F-C59D-4D55-9829-17B3E50E3EF9}"
 EndProject
