@@ -19,7 +19,8 @@ static void Received(object? sender, BasicDeliverEventArgs eventArgs)
 {
     byte[] messageBytes = eventArgs.Body.ToArray();
     var message = UTF8.GetString(messageBytes);
-    WriteLine($"Erth Sended : [{message}]");
+
+    WriteLine($"Earth Sended : [{message}],Exchange is : [{eventArgs.Exchange}], Routing Key is : [{eventArgs.RoutingKey}]");
 }
 
 channel.BasicConsume("inbox", false, consumer);
